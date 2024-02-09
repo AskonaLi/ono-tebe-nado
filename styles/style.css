@@ -1,18 +1,16 @@
 .header {
     display: grid;
-    grid-template-columns: 440px 1fr 440px;
+    grid-template-columns: 430px 1fr 430px;
     align-items: center;
     padding: 92px 24px 91px 24px;
 }
 
 .header__menu {
     align-items: center;
-    flex-grow: 1;
-    justify-self: start;
+    white-space: nowrap;
 }
 
 .address-justify-end {
-    flex-grow: 1;
     justify-self: end;
 }
 
@@ -25,8 +23,6 @@
 }
 
 .header__links-list-item {
-    display: flex;
-    flex-wrap: nowrap;
     font-family: Raleway;
     font-size: 18px;
     font-weight: 400;
@@ -56,7 +52,7 @@ font-style: normal;
 }
 
 .padding {
-    padding-right: 66px;
+    padding-right: 61px;
 }
 
 .address__item {
@@ -64,7 +60,7 @@ font-style: normal;
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0em;
+    letter-spacing: 1%;
     text-decoration: underline;
     text-underline-position: under;
 }
@@ -85,7 +81,7 @@ font-style: normal;
     color: #FFFFFF;
     position: relative;
     z-index: -1;
-    margin-bottom: 179px;
+    margin-bottom: 180px;
 }
 
 .overlay {
@@ -127,6 +123,7 @@ font-style: normal;
     display: block;
     text-align: end;
 }
+
 .cover__bottom-text {
     display: flex;
     position: relative;
@@ -136,14 +133,6 @@ font-style: normal;
     align-items: center;
 }
 
-.letter-spacing-extended {
-    letter-spacing: 60px;
-}
-
-.no-letter-spacing {
-    letter-spacing: 0.28em;
-}
-
 .cover__description {
     padding-left: 78px;
     bottom: 62px;
@@ -151,7 +140,16 @@ font-style: normal;
     font-size: 22px;
     font-weight: 400;
     line-height: 28px;
-    word-spacing: 20px;
+    word-spacing: 19px;
+    letter-spacing: 101%;
+}
+
+.letter-spacing-extended {
+    letter-spacing: 60px;
+}
+
+.no-letter-spacing {
+    letter-spacing: 0.28em;
 }
 
 .bet-button {
@@ -320,11 +318,11 @@ font-style: normal;
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 1%;
+    letter-spacing: 2%;
 }
 
 .about__text-letter-spacing {
-    letter-spacing: 2%;
+    letter-spacing: 4%;
 }
 
 .about__title-grid-4 {
