@@ -1,6 +1,6 @@
 
 
-## https://github.com/AskonaLi/ono-tebe-nado  - ссылка на мой (Колесников Максим) GitHub реппозиторий
+## https://github.com/AskonaLi/ono-tebe-nado.git  - ссылка на мой (Колесников Максим) GitHub реппозиторий
 
 ----
 
